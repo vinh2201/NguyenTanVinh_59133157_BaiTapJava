@@ -25,7 +25,7 @@ public class Bai1_NhanVien {
         else if(SoGioLam >= 100 && SoGioLam < 200){
             return Luong*0.1;
         }
-        else if(SoGioLam<100) {
+        else if(SoGioLam < 100) {
             return 0;
         }
         return 0;

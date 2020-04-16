@@ -20,6 +20,6 @@ public class Bai1_MainClass {
         System.out.println (nv_1.getThongTin() + "Tiền thưởng cho số giờ làm của nhân viên: " + nv_1.tinhThuong());
         Bai1_NhanVien nv_2 = new Bai1_NhanVien("Đặng Ngọc Thu Thảo", 28, "Hà Tĩnh, Hà Tĩnh", 2270000, 231);
         System.out.println (nv_2.getThongTin() + "Tiền thưởng cho số giờ làm của nhân viên: " + nv_2.tinhThuong());
-    }
+    }    
     
 }
