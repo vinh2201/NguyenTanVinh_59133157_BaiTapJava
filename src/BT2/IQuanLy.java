@@ -12,6 +12,6 @@ import BT1.Bai1_NhanVien;
  * @author potte
  */
 public interface IQuanLy {
-    void them(Bai1_NhanVien nv);
+    void them(Bai1_NhanVien nhan_vien);
     void inDS();
 }

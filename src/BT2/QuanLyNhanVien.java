@@ -21,14 +21,14 @@ public class QuanLyNhanVien implements IQuanLy{
     }
 
     @Override
-    public void them(Bai1_NhanVien nv) {
-        DanhSach_NV.add(nv);
+    public void them(Bai1_NhanVien nhan_vien) {
+        DanhSach_NV.add(nhan_vien);
     }
 
     @Override
     public void inDS() {
-        for(Bai1_NhanVien nhan_vien: DanhSach_NV) {
-            System.out.println(nhan_vien.getThongTin());
+        for(Bai1_NhanVien nhanvien: DanhSach_NV) {
+            System.out.println(nhanvien.getThongTin());
         }
     }
 
