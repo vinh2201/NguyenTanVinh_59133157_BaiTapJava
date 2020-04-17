@@ -18,9 +18,9 @@ public class Bai3_MainClass {
         SinhVienPoly SV_Poly = new SinhVienIT(9, 5, 8,"Nguyễn Thành Phong");
         SinhVienIT SV_IT = new SinhVienIT(6.25, 7.9, 5.2, "Lê Nhật Trường");
         SinhVienBiz SV_Biz = new SinhVienBiz(7, 6.2, "Nguyễn Tấn Vĩnh");
-        SV_Poly.xuat();
-        SV_IT.xuat();
-        SV_Biz.xuat();
+        SV_Poly.XuatDS();
+        SV_IT.XuatDS();
+        SV_Biz.XuatDS();
     }
     
 }

@@ -39,7 +39,7 @@ public abstract class SinhVienPoly {
         this.hoTen = hoTen;
         this.nganh = nganh;
     }  
-    public void xuat() {       
+    public void XuatDS() {       
         System.out.println("Họ và tên sinh viên: "+ hoTen + "\n" + "Ngành học: " + nganh);
     }
 }

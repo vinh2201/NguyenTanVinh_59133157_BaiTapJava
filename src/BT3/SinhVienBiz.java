@@ -24,8 +24,8 @@ public class SinhVienBiz extends SinhVienPoly{
         return (2 * diemMarketing + diemSales) / 3;
     }
     @Override
-    public void xuat() {
-        super.xuat(); 
+    public void XuatDS() {
+        super.XuatDS(); 
         System.out.println("Điểm đạt được: " + getDiem() + "\n" + "Xếp loại học lực: " + super.getHocLuc() + "\n");
     }
 }
